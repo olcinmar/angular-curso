@@ -1,0 +1,29 @@
+<h1>Heroe component</h1>
+
+<h1>{{nombre}}</h1>
+
+<dl>
+    <td>Nombre:</td>
+    <dd>{{nombre}}</dd>
+
+    <td>Edad:</td>
+    <dd>{{edad}} años</dd>
+
+    <td>Función:</td>
+    <dd>{{obtenerNombre()}} años</dd>
+
+    <td>Capitalizado:</td>
+    <dd>{{nombreCapitalizado}}</dd>
+</dl>
+
+<button (click)="cambiarHeroe()">
+    Cambiar Héroe
+</button>
+
+<button (click)="cambiarEdad()">
+    Cambiar Edad
+</button>
+
+<button (click)="cambiarTodo()">
+    Cambiar Todo
+</button>
